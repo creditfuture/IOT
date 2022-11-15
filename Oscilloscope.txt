@@ -1,0 +1,47 @@
+###  Oscilloscope  ###
+
+ADS1115 ADC    Pin Number 	GPIO Number
+VDD 			   Pin 17		   3.3v
+GND 			   Pin 9		   GND
+SCL 			   Pin 5 		  GPIO 3
+SDA 			   Pin 3 		  GPIO 2
+
+
+ADS1115   Raspi Pin
+ SDA			3
+ SCL			5
+ GND			9
+ VDD			17
+
+
+# sudo raspi-config
+   Interface --> I2C --> Yes
+
+# sudo pip3 install adafruit-circuitpython_ads1x15
+
+# sudo pip3 install adafruit-blinka
+
+# sudo git clone https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15.git
+
+# cd Adafruit_CircuitPython_ADS1x15
+
+# cd examples
+
+# ls
+
+#(Output) 
+# sudo python3 ads1x15_simpletest.py
+
+OR 
+You can create program if code is given
+# nano ads1x15_simpletest.py
+
+/// End  ///
+
+# sudo apt-get install python3-matplotlib
+
+
+ 
+
+
+
